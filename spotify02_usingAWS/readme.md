@@ -8,4 +8,8 @@ This pipeline automates the process of extracting, transforming, and loading (ET
 - Load: AWS Glue Crawlers infer the schema of transformed data and store metadata in AWS Glue Data Catalog. Data is then made available for querying using Amazon Athena.
 ## S3 Bucket
 ![bucket](https://github.com/MeenaGandham/Spotify_Datapipelines/blob/main/spotify02_usingAWS/bucket.png?raw=true)
+![](https://github.com/MeenaGandham/Spotify_Datapipelines/blob/main/spotify02_usingAWS/raw_data.png?raw=true)
+![](https://github.com/MeenaGandham/Spotify_Datapipelines/blob/main/spotify02_usingAWS/transformed_data.png?raw=true)
+
+
 
