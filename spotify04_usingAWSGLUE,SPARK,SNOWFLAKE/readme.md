@@ -1,5 +1,6 @@
 # DATA PIPELINE USING AWS S3, LAMBDA, CLOUDWATCH, GLUE, SPARK, SNOWFLAKE AND SNOWPIPE.
 This pipeline automates the process of extracting, transforming, and loading (ETL) Spotify data using AWS services and Snowflake. It ensures efficient data processing and analytics by leveraging AWS Lambda, S3, Glue (with Apache Spark), Snowpipe, and Snowflake.
+
 ![Architecture](https://github.com/MeenaGandham/Spotify_Datapipelines/blob/main/spotify04_usingAWSGLUE,SPARK,SNOWFLAKE/glue_spark%202.png?raw=true)
 
 ## Pipeline Workflow
