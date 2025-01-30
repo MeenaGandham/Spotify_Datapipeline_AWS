@@ -1,5 +1,6 @@
 # DATA PIPELINE USING AWS S3, LAMBDA, CLOUDWATCH, SNOWFLAKE AND SNOWPIPE
 This pipeline automates the process of extracting, transforming, and loading (ETL) Spotify data using AWS services and Snowflake. It ensures efficient data processing and analytics by leveraging AWS Lambda, S3, Snowpipe, and Snowflake.
+
 ![Architecture](https://github.com/MeenaGandham/Spotify_Datapipelines/blob/main/spotify03_usingAWS_SNOWFLAKE/snowflake%202.png?raw=true)
 ## Pipeline Workflow :
 - Extract: AWS Lambda fetches data from the Spotify API and stores it in Amazon S3 (raw data). Trigger: Amazon CloudWatch is used to schedule daily extraction.
