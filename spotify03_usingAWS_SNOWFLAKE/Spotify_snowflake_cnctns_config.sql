@@ -46,7 +46,7 @@ CREATE PIPE or replace artist_pipe
 CREATE PIPE song_pipe
     AUTO_INGEST = TRUE
     AS
-    COPY INTO tblartist
+    COPY INTO tblsong
     FROM @spotify_s3_stage/transformed_data/song_data/
     FILE_FORMAT = (TYPE = 'CSV', FIELD_DELIMITER = ',', SKIP_HEADER = 1, FIELD_OPTIONALLY_ENCLOSED_BY='"');
 
